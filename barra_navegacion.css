@@ -1,0 +1,51 @@
+header{
+    width:100%;
+}
+
+header nav{
+    z-index:1000;
+    max-width:1000px;
+    width: 95%;
+    margin:20px auto;
+}
+
+header nav ul{
+    list-style:none;
+}
+header nav ul li{
+    display:inline-block;
+    position:relative;
+}
+header nav ul li:hover{
+
+}
+
+header nav ul li a{
+
+    display:block;
+    text-decoration: none;
+    padding:20px;
+}
+
+
+header nav ul li:hover .children{
+    display:block;
+}
+header nav ul li .children{
+    display:none;
+  
+    position:absolute;
+    width:150%;
+    z-index:1000;
+}
+header nav ul li .children li{
+    display:block;
+    overflow:hidden;
+
+}
+header nav ul li .children li a{
+    display:block;
+}
+
+
+
